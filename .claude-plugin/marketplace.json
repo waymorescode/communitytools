@@ -1,31 +1,50 @@
 {
-  "name": "Transilience Community Security Tools",
-  "description": "Claude Code plugins for authorized security testing, bug bounty hunting, AI threat testing, and recon",
+  "name": "transilience-community-tools",
+  "description": "Claude Code plugins for authorized security testing, bug bounty hunting, AI threat testing, and recon.",
+  "owner": {
+    "name": "Transilience AI",
+    "url": "https://www.transilience.ai"
+  },
   "plugins": [
     {
       "name": "pentest",
-      "path": "plugins/pentest",
-      "description": "Full penetration testing framework — 100+ attack categories covering OWASP, injection, authentication, cloud, and more"
+      "source": "./plugins/pentest",
+      "description": "Full penetration testing framework — 28 skills covering OWASP Top 10, OWASP LLM Top 10, recon, infra, cloud, blockchain, AI threat testing, reverse engineering, mobile, and reporting. Coordinator / executor / validator / skeptic agent orchestration via the coordination skill.",
+      "version": "1.0.0",
+      "category": "security",
+      "keywords": ["security", "pentest", "owasp", "ctf", "bug-bounty"]
     },
     {
       "name": "hackerone",
-      "path": "plugins/hackerone",
-      "description": "HackerOne bug bounty integration — report generation, CSV parsing, and platform-ready submissions"
+      "source": "./plugins/hackerone",
+      "description": "HackerOne bug bounty workflow — scope-CSV parsing, parallel asset testing, PoC validation, platform-ready submissions.",
+      "version": "1.0.0",
+      "category": "bug-bounty",
+      "keywords": ["bug-bounty", "hackerone"]
     },
     {
       "name": "ai-threat-testing",
-      "path": "plugins/ai-threat-testing",
-      "description": "AI security testing — OWASP LLM Top 10 with dedicated agents for prompt injection, model extraction, and more"
+      "source": "./plugins/ai-threat-testing",
+      "description": "AI security testing — OWASP LLM Top 10 (prompt injection, model extraction, training-data poisoning, supply-chain, excessive agency, sensitive info disclosure).",
+      "version": "1.0.0",
+      "category": "ai-security",
+      "keywords": ["ai-security", "llm", "owasp-llm", "prompt-injection"]
     },
     {
       "name": "techstack-identification",
-      "path": "plugins/techstack-identification",
-      "description": "Tech stack reconnaissance — 26 skills and 5 agents for DNS, cloud detection, subdomain enumeration, and more"
+      "source": "./plugins/techstack-identification",
+      "description": "Passive tech-stack reconnaissance — DNS, cloud detection, subdomain enumeration, OSINT, attack-surface mapping.",
+      "version": "1.0.0",
+      "category": "recon",
+      "keywords": ["recon", "osint", "tech-stack"]
     },
     {
       "name": "skill-update",
-      "path": "plugins/skill-update",
-      "description": "Skill creation meta-tool — automates skill generation, validation, and PR submission for Claude Code plugins"
+      "source": "./plugins/skill-update",
+      "description": "Skill creation meta-tool — automates skill generation, validation, and PR submission for Claude Code plugins.",
+      "version": "1.0.0",
+      "category": "meta-tooling",
+      "keywords": ["meta-tool", "skill-authoring", "plugin-development"]
     }
   ]
 }

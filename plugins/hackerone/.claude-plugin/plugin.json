@@ -1,0 +1,13 @@
+{
+  "name": "hackerone",
+  "version": "1.0.0",
+  "description": "HackerOne bug bounty workflow. Scope-CSV parsing, parallel asset testing, PoC validation, platform-ready submissions. Depends on the coordination skill for engagement orchestration.",
+  "author": {
+    "name": "Transilience AI",
+    "url": "https://www.transilience.ai"
+  },
+  "homepage": "https://github.com/transilienceai/communitytools",
+  "repository": "https://github.com/transilienceai/communitytools",
+  "license": "MIT",
+  "keywords": ["bug-bounty", "hackerone", "security"]
+}
