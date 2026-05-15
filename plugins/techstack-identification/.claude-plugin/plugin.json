@@ -1,7 +1,7 @@
 {
   "name": "techstack-identification",
   "version": "1.0.0",
-  "description": "Passive tech-stack reconnaissance across 17 intelligence domains. DNS, cloud detection, subdomain enumeration, OSINT, attack-surface mapping. Designed for non-intrusive pre-engagement intel.",
+  "description": "Reconnaissance suite \u2014 subdomain/asset discovery, OSINT, and passive tech-stack inference. Coordination skill included.",
   "author": {
     "name": "Transilience AI",
     "url": "https://www.transilience.ai"
@@ -9,5 +9,10 @@
   "homepage": "https://github.com/transilienceai/communitytools",
   "repository": "https://github.com/transilienceai/communitytools",
   "license": "MIT",
-  "keywords": ["recon", "osint", "tech-stack", "subdomain-enum"]
+  "keywords": [
+    "recon",
+    "osint",
+    "tech-stack",
+    "subdomain-enum"
+  ]
 }

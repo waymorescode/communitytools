@@ -9,42 +9,64 @@
     {
       "name": "pentest",
       "source": "./plugins/pentest",
-      "description": "Full penetration testing framework — 28 skills covering OWASP Top 10, OWASP LLM Top 10, recon, infra, cloud, blockchain, AI threat testing, reverse engineering, mobile, and reporting. Coordinator / executor / validator / skeptic agent orchestration via the coordination skill.",
+      "description": "Penetration testing framework \u2014 Vulnerability Testing skills (injection, client-side, server-side, auth, API, web-app logic, cloud/containers, system, infra, social engineering, mobile, firewall-review, cryptography) plus coordination. 14 skills total.",
       "version": "1.0.0",
       "category": "security",
-      "keywords": ["security", "pentest", "owasp", "ctf", "bug-bounty"]
+      "keywords": [
+        "security",
+        "pentest",
+        "owasp",
+        "ctf",
+        "bug-bounty"
+      ]
     },
     {
       "name": "hackerone",
       "source": "./plugins/hackerone",
-      "description": "HackerOne bug bounty workflow — scope-CSV parsing, parallel asset testing, PoC validation, platform-ready submissions.",
+      "description": "Bug bounty platform integrations \u2014 HackerOne + HackTheBox + coordination. 3 skills.",
       "version": "1.0.0",
       "category": "bug-bounty",
-      "keywords": ["bug-bounty", "hackerone"]
+      "keywords": [
+        "bug-bounty",
+        "hackerone"
+      ]
     },
     {
       "name": "ai-threat-testing",
       "source": "./plugins/ai-threat-testing",
-      "description": "AI security testing — OWASP LLM Top 10 (prompt injection, model extraction, training-data poisoning, supply-chain, excessive agency, sensitive info disclosure).",
+      "description": "Specialized security \u2014 AI threat testing (OWASP LLM Top 10), blockchain, CVE PoC, DFIR, SAST, reverse engineering + coordination. 7 skills.",
       "version": "1.0.0",
       "category": "ai-security",
-      "keywords": ["ai-security", "llm", "owasp-llm", "prompt-injection"]
+      "keywords": [
+        "ai-security",
+        "llm",
+        "owasp-llm",
+        "prompt-injection"
+      ]
     },
     {
       "name": "techstack-identification",
       "source": "./plugins/techstack-identification",
-      "description": "Passive tech-stack reconnaissance — DNS, cloud detection, subdomain enumeration, OSINT, attack-surface mapping.",
+      "description": "Reconnaissance suite \u2014 subdomain/asset discovery, OSINT, tech-stack inference + coordination. 4 skills.",
       "version": "1.0.0",
       "category": "recon",
-      "keywords": ["recon", "osint", "tech-stack"]
+      "keywords": [
+        "recon",
+        "osint",
+        "tech-stack"
+      ]
     },
     {
       "name": "skill-update",
       "source": "./plugins/skill-update",
-      "description": "Skill creation meta-tool — automates skill generation, validation, and PR submission for Claude Code plugins.",
+      "description": "Engagement tooling and meta-tools \u2014 essential-tools, patt-fetcher, script-generator, github-workflow, skill-update, skill-prune, cve-risk-score. 7 skills.",
       "version": "1.0.0",
       "category": "meta-tooling",
-      "keywords": ["meta-tool", "skill-authoring", "plugin-development"]
+      "keywords": [
+        "meta-tool",
+        "skill-authoring",
+        "plugin-development"
+      ]
     }
   ]
 }

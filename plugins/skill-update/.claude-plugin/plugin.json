@@ -1,7 +1,7 @@
 {
   "name": "skill-update",
   "version": "1.0.0",
-  "description": "Skill scaffolding, validation, and PR-submission automation for Claude Code plugins. Companion to script-generator (validated-syntax scripts) and github-workflow (branch / commit / PR ergonomics).",
+  "description": "Engagement tooling and meta-tools \u2014 essential-tools (Burp, Playwright, methodology), patt-fetcher (PayloadsAllTheThings), script-generator, github-workflow, skill authoring (skill-update, skill-prune), and CVE risk scoring.",
   "author": {
     "name": "Transilience AI",
     "url": "https://www.transilience.ai"
@@ -9,5 +9,11 @@
   "homepage": "https://github.com/transilienceai/communitytools",
   "repository": "https://github.com/transilienceai/communitytools",
   "license": "MIT",
-  "keywords": ["meta-tool", "skill-authoring", "plugin-development"]
+  "keywords": [
+    "meta-tool",
+    "skill-authoring",
+    "tooling",
+    "burp",
+    "playwright"
+  ]
 }

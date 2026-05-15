@@ -1,7 +1,7 @@
 {
   "name": "ai-threat-testing",
   "version": "1.0.0",
-  "description": "AI security testing focused on the OWASP LLM Top 10. Prompt injection (direct + indirect), model extraction, training-data poisoning, supply-chain attacks, excessive agency, sensitive info disclosure. Pairs with source-code-scanning for SAST on LLM-adjacent code paths.",
+  "description": "Specialized security skills \u2014 AI threat testing (OWASP LLM Top 10), blockchain security, CVE PoC generation, DFIR, source-code SAST, and reverse engineering. Coordination skill included.",
   "author": {
     "name": "Transilience AI",
     "url": "https://www.transilience.ai"
@@ -9,5 +9,12 @@
   "homepage": "https://github.com/transilienceai/communitytools",
   "repository": "https://github.com/transilienceai/communitytools",
   "license": "MIT",
-  "keywords": ["ai-security", "llm", "owasp-llm", "prompt-injection"]
+  "keywords": [
+    "ai-security",
+    "llm",
+    "blockchain",
+    "dfir",
+    "cve",
+    "sast"
+  ]
 }
